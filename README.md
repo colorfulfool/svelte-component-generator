@@ -1,4 +1,4 @@
-# Svelte Component Generator
+# 🦄Svelte Component Generator
 
 ## Getting Started
 
