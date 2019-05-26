@@ -1,0 +1,30 @@
+{
+  "name": "svelte-component-generator",
+  "version": "1.0.0",
+  "description": "Component generator for Svelte library",
+  "main": "index.js",
+  "scripts": {
+    "plop": "plop"
+  },
+  "author": "Netanel Basal",
+  "bin": {
+    "svgen": "index.js"
+  },
+  "repository": {
+    "url": "https://github.com/NetanelBasal/svelte-component-generator"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": ["svelte", "component-generator", "generator"],
+  "dependencies": {
+    "find-package-json": "1.2.0",
+    "inquirer-fuzzy-path": "2.0.3",
+    "npm-run": "5.0.1",
+    "pkg-dir": "2.0.0",
+    "plop": "2.3.0",
+    "pluralize": "7.0.0",
+    "shelljs": "0.8.3"
+  },
+  "license": "MIT"
+}
