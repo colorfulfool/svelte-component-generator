@@ -1,11 +1,9 @@
 <script>
-  import { createEventDispatcher } from 'svelte';
-
-	const dispatch = createEventDispatcher();
+  let export name
 </script>
 
-<style>
-</style>
 
-<h1>{{  pascalCase c }}</h1>
-<button on:click="{() => dispatch('notify', 'detail value')}">Fire Event</button>
+
+<style>
+
+</style>
