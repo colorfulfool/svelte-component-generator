@@ -29,17 +29,16 @@ module.exports = function (plop) {
       type: 'input',
       name: 'c',
       message: 'Give me a name, please 😀'
-    }, chooseDirAction],
+    }],
     actions: function (data) {
       const {
-        c,
-        directory
+        c
       } = data;
 
       const files = [{
         type: 'add',
         skipIfExists: true,
-        path: buildPath(`${c}.svelte`, directory),
+        path: buildPath(`${c}.svelte`, basePath),
         templateFile: `./templates/component.tpl`
       }];
 
